@@ -28,9 +28,9 @@ https://www.youtube.com/watch?v=eDIj5LuIL4A
 
 ## Install
 
-python -m venv .venv && source .venv/bin/activate
+    python -m venv .venv && source .venv/bin/activate
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 ## projects
