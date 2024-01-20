@@ -1,8 +1,8 @@
-# opencv-python-course-computer-vision
+# opencv-computer-vision
 
-Welcome to this 3 hours course on OpenCV with Python. This course is ideal for beginners in OpenCV and computer vision!
+Welcome to this course on OpenCV with Python.
+This course is ideal for beginners in OpenCV and computer vision!
 
-Enjoy!
 
 https://www.youtube.com/watch?v=eDIj5LuIL4A
 
@@ -25,6 +25,14 @@ https://www.youtube.com/watch?v=eDIj5LuIL4A
 - 2:28:48 Project 2: Face anonymizer
 - 3:10:32 Outro
 
+
+## Install
+
+python -m venv .venv && source .venv/bin/activate
+
+pip install -r requirements.txt
+
+
 ## projects
 
 The code for the 2 projects we cover in this course is in a different repository.
@@ -35,9 +43,6 @@ Repositories:
 - [Face anonymizer](https://github.com/computervisioneng/face-anonymizer-ptyhon)
 
 
+https://www.youtube.com/watch?v=DRMBqhrfxXg
 
-python -m venv .venv && source .venv/bin/activate
-
-pip install -r requirements.txt
-
-
+[![Watch the video](https://img.youtube.com/vi/eDIj5LuIL4A/0.jpg)](https://www.youtube.com/watch?v=DRMBqhrfxXg)
