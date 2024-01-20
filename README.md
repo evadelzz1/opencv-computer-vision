@@ -1,12 +1,21 @@
 # opencv-computer-vision
 
 Welcome to this course on OpenCV with Python.
-This course is ideal for beginners in OpenCV and computer vision!
 
+## Install
+
+    python -m venv .venv && source .venv/bin/activate
+
+    pip install -r requirements.txt
+
+## Reference
 
 https://www.youtube.com/watch?v=eDIj5LuIL4A
 
 [![Watch the video](https://img.youtube.com/vi/eDIj5LuIL4A/0.jpg)](https://www.youtube.com/watch?v=eDIj5LuIL4A)
+
+https://www.youtube.com/watch?v=WgPbbWmnXJ8
+
 
 ## course outline
 
@@ -26,11 +35,6 @@ https://www.youtube.com/watch?v=eDIj5LuIL4A
 - 3:10:32 Outro
 
 
-## Install
-
-    python -m venv .venv && source .venv/bin/activate
-
-    pip install -r requirements.txt
 
 
 ## projects
@@ -45,3 +49,8 @@ Repositories:
 
 [![Color detection]](https://www.youtube.com/watch?v=aFNDh5k3SjU)
 [![Face anonymizer]](https://www.youtube.com/watch?v=DRMBqhrfxXg)
+
+
+
+https://github.com/murtazahassan/OpenCV-Python-Tutorials-and-Projects?tab=readme-ov-file
+

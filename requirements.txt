@@ -2,3 +2,5 @@ opencv-python
 numpy       # for color-detection
 Pillow      # for color-detection
 mediapipe   # for Breadcrumbsface-anonymizer
+pytesseract
+pyzbar      # QRCode
