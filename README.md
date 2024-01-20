@@ -43,6 +43,5 @@ Repositories:
 - [Face anonymizer](https://github.com/computervisioneng/face-anonymizer-ptyhon)
 
 
-https://www.youtube.com/watch?v=DRMBqhrfxXg
-
-[![Watch the video](https://img.youtube.com/vi/eDIj5LuIL4A/0.jpg)](https://www.youtube.com/watch?v=DRMBqhrfxXg)
+[![Color detection]](https://www.youtube.com/watch?v=aFNDh5k3SjU)
+[![Face anonymizer]](https://www.youtube.com/watch?v=DRMBqhrfxXg)
