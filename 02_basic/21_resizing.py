@@ -15,10 +15,14 @@ print(f"- TOBE image shape : {resized_img.shape}")
 
 # visualize image
 print("visualize image...")
-cv2.imshow('img', img)
+cv2.imshow('original', img)
 cv2.imshow('resized_img', resized_img)
 
+cv2.moveWindow('resized_img', 600,400)
+
 # waiting
-print("- wait 5 sec")
-cv2.waitKey(5000)  # waiting 5sec=5000ms
+print("- wait 3 sec")
+cv2.waitKey(3000)   # waiting 3sec=3000ms
 # cv2.waitKey(0)    # waiting unlimited..
+
+cv2.destroyAllWindows()

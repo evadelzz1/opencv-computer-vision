@@ -15,11 +15,14 @@ cropped_img = img[120:650, 150:800]  # img[ y: y + h, x: x + w ]
 
 # visualize image
 print("visualize image...")
-cv2.imshow('img', img)
+cv2.imshow('original', img)
 cv2.imshow('cropped_img', cropped_img)
 
+cv2.moveWindow('cropped_img', 400,400)
+
 # waiting
-print("- wait 10 sec")
-cv2.waitKey(10000)  # waiting 10sec=10000ms
+print("- wait 3 sec")
+cv2.waitKey(3000)   # waiting 3sec=3000ms
 # cv2.waitKey(0)    # waiting unlimited..
 
+cv2.destroyAllWindows()

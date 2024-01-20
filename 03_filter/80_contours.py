@@ -1,9 +1,9 @@
 import os
-
 import cv2
 
-
-img = cv2.imread(os.path.join('.', 'birds.jpg'))
+# read image
+print("read image...")
+img = cv2.imread(os.path.join('.', 'data', 'contours_birds.jpg'))
 
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
@@ -19,6 +19,19 @@ for cnt in contours:
 
         cv2.rectangle(img, (x1, y1), (x1 + w, y1 + h), (0, 255, 0), 2)
 
-cv2.imshow('img', img)
+# visualize image
+print("visualize image...")
+cv2.imshow('original', img)
+cv2.imshow('img_gray', img_gray)
 cv2.imshow('thresh', thresh)
-cv2.waitKey(0)
+
+cv2.moveWindow('img_gray', 200,200)
+cv2.moveWindow('thresh', 400,400)
+
+# waiting
+print("### if you want exit, press a 'q' key ###")
+while(True):
+    if cv2.waitKey(100) & 0xFF == ord('q'):  # if you want exit, press a 'q' key
+        cv2.destroyAllWindows()
+        break
+

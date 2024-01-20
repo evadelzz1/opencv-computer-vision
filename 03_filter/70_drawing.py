@@ -1,9 +1,9 @@
 import os
-
 import cv2
 
-
-img = cv2.imread(os.path.join('.', 'whiteboard.png'))
+# read image
+print("read image...")
+img = cv2.imread(os.path.join('.', 'data', 'whiteboard.png'))
 
 print(img.shape)
 
@@ -20,4 +20,10 @@ cv2.circle(img, (800, 200), 75, (255, 0, 0), 10)
 cv2.putText(img, 'Hey you!', (600, 450), cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 0), 10)
 
 cv2.imshow('img', img)
-cv2.waitKey(0)
+
+# waiting
+print("### if you want exit, press a 'q' key ###")
+while(True):
+    if cv2.waitKey(100) & 0xFF == ord('q'):  # if you want exit, press a 'q' key
+        cv2.destroyAllWindows()
+        break

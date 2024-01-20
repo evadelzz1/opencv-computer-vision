@@ -22,4 +22,6 @@ print("- wait 2 sec")
 cv2.waitKey(2000)   # waiting 2sec=2000ms
 # cv2.waitKey(0)    # waiting unlimited..
 
+cv2.destroyAllWindows()
+
 print("check a output file.")
