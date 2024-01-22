@@ -31,6 +31,8 @@ out2 = cv2.VideoWriter(out2Path, fourcc, 20.0, frame_size, isColor=False)
 
 # visualize video
 print("visualize video & recoding... (wait 5min)")
+print("### if you want exit, press a 'ESC' key ###")
+
 while True:
     retval, frame = cap.read()  # 영상을 한 frame씩 읽어오기
     if not(retval):
@@ -43,10 +45,10 @@ while True:
     cv2.imshow('frame', frame)
     cv2.imshow('edges', gray)
     
-    key = cv2.waitKey(25)
-    if key == 27:                   # 키 입력을 받으면 키값을 key로 저장 -> esc == 27
+    key = cv2.waitKey(30)
+    if key == 27:   # ESC key
         break
-        
+         
 if cap.isOpened():
     cap.release()
     out1.release()
