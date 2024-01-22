@@ -4,3 +4,6 @@ Pillow      # for color-detection
 mediapipe   # for Breadcrumbsface-anonymizer
 pytesseract
 pyzbar      # QRCode
+pafy        # youtube
+youtube-dl  # youtube
+# yt-dlp      # youtube (<->youtube-dl)
