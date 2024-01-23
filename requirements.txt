@@ -2,7 +2,7 @@ opencv-python
 opencv-contrib-python   # for Tracker
 numpy       # for color-detection
 Pillow      # for color-detection
-mediapipe   # for Breadcrumbsface-anonymizer
+mediapipe   # for Breadcrumbsface-anonymizer, golf_motion_coach
 pytesseract # OCR
 pyzbar      # QRCode
 pafy        # youtube

@@ -2,6 +2,7 @@
 
 Welcome to this course on OpenCV with Python.
 
+
 ## Install
 
     python -m venv .venv && source .venv/bin/activate
