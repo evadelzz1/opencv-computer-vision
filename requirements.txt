@@ -9,4 +9,5 @@ pafy        # youtube
 youtube-dl  # youtube
 # yt-dlp      # youtube (<->youtube-dl)
 imutils
-winsound
+# winsound	# for windows
+deepface
