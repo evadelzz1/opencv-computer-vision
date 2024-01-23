@@ -8,3 +8,5 @@ pyzbar      # QRCode
 pafy        # youtube
 youtube-dl  # youtube
 # yt-dlp      # youtube (<->youtube-dl)
+imutils
+winsound
