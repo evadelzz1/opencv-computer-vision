@@ -47,4 +47,5 @@ with mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence
             cv2.destroyAllWindows()
             break
 
-            
+
+# https://github.com/computervisioneng/face-anonymizer-ptyhon

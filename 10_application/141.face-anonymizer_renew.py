@@ -92,3 +92,5 @@ with mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence
             ret, frame = cap.read()
 
         cap.release()
+
+# https://github.com/computervisioneng/face-anonymizer-ptyhon
