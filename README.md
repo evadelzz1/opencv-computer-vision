@@ -9,6 +9,8 @@ Welcome to this course on OpenCV with Python.
 
     pip install -r requirements.txt
 
+    brew install ffmpeg
+
 ## Reference
 
     https://www.youtube.com/watch?v=eDIj5LuIL4A
