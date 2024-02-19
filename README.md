@@ -2,8 +2,9 @@
 
 Welcome to this course on OpenCV with Python.
 
-
 ## Prerequirement install
+
+    brew install ffmpeg
 
     brew install bar
     brew install zbar
@@ -22,8 +23,6 @@ Welcome to this course on OpenCV with Python.
 
     pip install -r requirements.txt
 
-    brew install ffmpeg
-
 ## Reference
 
 - [OpenCV tutorial for beginners](https://www.youtube.com/watch?v=eDIj5LuIL4A)
@@ -31,7 +30,6 @@ Welcome to this course on OpenCV with Python.
 - [OpenCV Python Tutorials for Beginners 2020](https://www.youtube.com/playlist?list=PLMoSUbG1Q_r_sc0x7ndCsqdIkL7dwrmNF)
     
 - [Object Detection 101 Course](https://www.youtube.com/watch?v=WgPbbWmnXJ8)
-
 
 ## projects
 
@@ -57,15 +55,16 @@ Repositories:
 
     pip show youtube-dl
 
-    vi ...../python/opencv-computer-vision/.venv/lib/python3.11/site-packages/youtube_dl/extractor/youtube.py
+    vi ./.venv/lib/python3.11/site-packages/youtube_dl/extractor/youtube.py
 
     [ASIS]
     1794 : 'uploader_id': self._search_regex(r'/(?:channel|user)/([^/?&#]+)', owner_profile_url, 'uploader id') if owner_profile_url else None,
+    
     [TOBE]
     1794 : 'uploader_id': self._search_regex(r'/(?:channel|user)/([^/?&#]+)', owner_profile_url, 'uploader id', fatal=False) if owner_profile_url else None,
 
 
-    vi ...../python/opencv-computer-vision/.venv/lib/python3.11/site-packages/pafy/backend_youtube_dl.py
+    vi ./.venv/lib/python3.11/site-packages/pafy/backend_youtube_dl.py
 
     [ASIS]
     53 self._likes = self._ydl_info['like_count']
