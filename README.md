@@ -26,11 +26,11 @@ Welcome to this course on OpenCV with Python.
 
 ## Reference
 
-    https://www.youtube.com/watch?v=eDIj5LuIL4A
+- [OpenCV tutorial for beginners](https://www.youtube.com/watch?v=eDIj5LuIL4A)
 
-    https://www.youtube.com/playlist?list=PLMoSUbG1Q_r_sc0x7ndCsqdIkL7dwrmNF
+- [OpenCV Python Tutorials for Beginners 2020](https://www.youtube.com/playlist?list=PLMoSUbG1Q_r_sc0x7ndCsqdIkL7dwrmNF)
     
-    https://www.youtube.com/watch?v=WgPbbWmnXJ8
+- [Object Detection 101 Course](https://www.youtube.com/watch?v=WgPbbWmnXJ8)
 
 
 ## projects
