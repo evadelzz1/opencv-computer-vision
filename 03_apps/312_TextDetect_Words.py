@@ -4,7 +4,9 @@ import numpy as np
 from PIL import ImageGrab
 from os import path
 
-# https://www.youtube.com/watch?v=6DjFscX4I_c
+# Reference : https://www.youtube.com/watch?v=6DjFscX4I_c
+
+print("Waiting 10 sec.....")
 
 if path.exists('/usr/local/bin/tesseract'):
     pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract'
