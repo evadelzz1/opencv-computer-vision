@@ -24,10 +24,8 @@ cv2.moveWindow('img_gaussian_blur', 400, 400)
 cv2.moveWindow('img_median_blur', 600, 600)
 
 # waiting
-print("### if you want exit, press a 'ESC' key ###")
-while(True):
-    key = cv2.waitKey(30)
-    if key == 27:   # ESC key
-        break
+print("- wait 3 sec")
+cv2.waitKey(3000)   # waiting 2sec=2000ms
+# cv2.waitKey(0)    # waiting unlimited..
 
 cv2.destroyAllWindows()

@@ -3,7 +3,8 @@ import cv2
 
 # read image
 print("read image...")
-image_path = os.path.join('.', 'data', 'dog1.png')
+image_path = './data/dog1.png'
+# image_path = os.path.join('.', 'data', 'dog1.png')
 img = cv2.imread(image_path)
 
 # resize image
